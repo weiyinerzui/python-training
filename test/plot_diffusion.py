@@ -13,8 +13,8 @@ if __name__ == '__main__':
     D = 0.1
     dt = 0.01
     dx = 0.1
-    u = heat_diffusion(u, D ,dt, dx)
-    plt_result(u)
+    result = heat_diffusion(u, D ,dt, dx)
+    plt_result(result)
 
 
- 
+
